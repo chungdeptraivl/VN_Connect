@@ -18,7 +18,7 @@ router.get("/", getRecommendedUsers);
 
 router.get("/friends", getMyFriends);
 
-router.delete("/friends/:id", removeFriend);
+router.delete("/friend/:id/reject", removeFriend);
 
 router.post("/friend-request/:id", sendFriendRequest);
 
